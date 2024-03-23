@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>主页导航</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="background"></div>
+
+<header>
+  <h1>秘密基地</h1>
+  <div id="time"></div> <!-- 添加时间显示的容器 -->
+</header>
+<nav>
+
+</nav>
+<div class="search-container">
+  <form action="https://www.google.com/search" method="GET" target="_blank">
+    <input id="search-input" type="text" placeholder="搜索..." name="q">
+    <input type="submit" value="搜索">
+    <div id="search-suggestions"></div>
+  </form>
+</div>
+
+<div id="navigation"></div>
+
+<button id="addButton">添加</button>
+
+<!-- 右键菜单 -->
+<div id="contextMenu">
+  <ul>
+    <li id="editItem">编辑</li>
+    <li id="deleteItem">删除</li>
+  </ul>
+</div>
+
+<!-- 天气显示容器 -->
+<div id="weather"></div>
+
+
+
+
+<script src="background.js"></script>
+<script src="addButton.js"></script>
+<script src="addSiteButton.js"></script>
+<script src="saveSiteButton.js"></script>
+<script src="contextMenu.js"></script>
+<script src="weather.js"></script> <!-- 添加天气功能的 JavaScript 文件 -->
+<script src="time.js"></script> <!-- 添加时间功能的 JavaScript 文件 -->
+</body>
+</html>
