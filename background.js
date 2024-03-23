@@ -1,5 +1,5 @@
 // 设置背景图
-document.getElementById('background').style.backgroundImage = "url('D:\\\\steam\\\\steamapps\\\\workshop\\\\content\\\\431960\\\\3034105545\\\\preview.jpg')";
+document.getElementById('background').style.backgroundImage = "url('photo/background.jpg')";
 
 // 自适应调整背景图大小
 function resizeBackground() {
